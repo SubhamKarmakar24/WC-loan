@@ -1,0 +1,764 @@
+.hit
+               {
+                    
+                    
+                    overflow: visible !important;
+                    
+               }
+               .section2 .hit
+               {
+                    position: relative;
+                    top: -50px;
+               }
+               .section2 .hit img
+               {
+                    position: relative;
+                    top: -90px;
+               }
+               .hit .text1
+               {
+                    width: 500px;
+                    position: relative;
+                    top:50%;
+                    transform: translateY(-50%);
+                    
+               }
+               .hit .text1 .shorthead
+               {
+                    padding-top: 20px;
+                    text-align: center;
+
+                    font-family: Raleway;
+                    font-style: italic;
+                    font-weight: 600;
+                    font-size: 22px;
+                    line-height: 2px;
+                    /* or 159% */
+
+                    text-align: center;
+
+                    color: #000000;
+               }
+               .hit .text1 .head
+               {
+                    
+
+               height: 50px;
+
+
+               font-family: Raleway;
+               font-style: normal;
+               font-weight: 800;
+               font-size: 50px;
+               line-height: 50px;
+               /* identical to box height, or 100% */
+
+               text-align: center;
+
+               color: #000000;
+               }
+               body
+               {
+                    background-color: #f9f9f9;
+                    
+               }
+
+
+               .navbar1
+               {
+                    text-align: center;
+                    
+               }
+               .navbar1 p
+               {
+                    
+                    margin-bottom: 10px;
+               }
+               .hr
+               {
+                    position: relative;
+                    width: 270px;
+                    top: 60px;
+                    background-color: #1DA5FF;
+                    border-radius: 4px;
+                    border: 3.2px solid #1DA5FF;
+               }
+               .text1 .hr1
+               {
+                    background-color: #1DA5FF;
+                    position: relative;
+                    width: 65px;
+                    margin-top: -15px;
+                    margin-bottom: 20px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    border-radius: 4px;
+                    border: 2.4px solid #1DA5FF;
+               }
+               .section1 img
+               {
+                    
+                    position: absolute;
+                    right: 0;
+                    height: 657px;
+               }
+               .section1
+               {
+                    background-color: white;
+                    height: 657px;
+               }
+               .heading
+               {
+                    position: relative;
+                    width: 694px;
+                    height: 240px;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 65px;
+                    line-height: 80px;
+
+
+                    letter-spacing: 0.01em;
+                    color: #333333;
+
+                    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                    z-index:99999;
+                    top: 80px;
+               }
+               .text
+               {
+                    top: 90px;
+                    position: relative;
+                    width: 590px;
+                    height: 70px;
+                    z-index: 9999;
+
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 25px;
+                    line-height: 35px;
+                    /* or 140% */
+
+
+                    color: #676767
+               }
+               .button1
+               {
+                    
+                    background: #1DA5FF;
+                    box-shadow: 0px 2px 7px rgba(0, 135, 224, 0.5);
+                    border-radius: 10px;
+                    position: absolute;
+                    width: 246px;
+                    height: 57px;
+                    top: 555px;
+               }
+               .ipbox
+               {
+                    position: relative;
+                    top: 130px;
+                    z-index: 999999;
+               }
+               .iptext
+               {
+                    position: relative;
+                    width: 44px;
+                    height: 24px;
+                    top: 15px;
+                    font-family: Nunito Sans;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 24px;
+                    line-height: 24px;
+                    /* identical to box height, or 100% */
+
+                    display: flex;
+                    align-items: center;
+
+                    color: #676767;
+                    margin-right: 15px;
+                    
+               }
+               .ip
+               {
+                    border-right: none;
+                    border-top: none;
+                    border-bottom: none;
+                    padding-left: 20px;
+                    width: 365px;
+                    height: 42px;
+                    background-color: transparent;
+                    font-family: Nunito Sans;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 42px;
+                    line-height: 42px;
+                    /* identical to box height, or 100% */
+
+                    display: flex;
+                    align-items: center;
+                    letter-spacing: 0.12em;
+               }
+               input::placeholder
+               {
+                    
+                    font-family: Nunito Sans;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 42px;
+                    line-height: 42px;
+                    /* identical to box height, or 100% */
+
+                    display: flex;
+                    align-items: center;
+                    letter-spacing: 0.12em;
+
+                    color: #bebebe;
+               }
+               .container1
+               {
+                    
+                    width: 85%;
+                    position: relative;
+                    left: 50%;
+                    transform: translateX(-50%);
+               }
+               .butext
+               {
+                    
+                    
+
+
+                    font-family: Nunito Sans;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 57px;
+                    
+
+                    
+                    align-items: center;
+                    text-align: center;
+
+                    color: #FFFFFF;
+               }
+               .arrow
+               {
+                    position: relative;
+                    background:url(img/2.png);
+                    width: 33.82px;
+                    height: 25px;
+                    top: 17px;
+                    right: 20px;
+                    float: right;
+               }
+
+               .butext1
+               {
+                    
+                    font-family: Nunito Sans;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 25px;
+                    line-height: 80px;
+                    /* identical to box height, or 340% */
+
+
+                    align-items: center;
+                    text-align: center;
+                    color: #1DA5FF !important;
+               }
+
+
+               .butext2
+               {
+                   
+                    width: 110px;
+                    height: 50px;
+                    
+
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 35px;
+
+                    text-align: center;
+
+                    color: #FFFFFF;
+               }
+               .section5 a:hover
+               {
+                    color: white;
+               }
+               .arrow1
+               {
+                    position: relative;
+                    background:url(img/9.png);
+                    width: 33.82px;
+                    height: 25px;
+                    top: 28px;
+                    right: 120px;
+                    float: right;
+               }
+               .heading2
+               {
+                    
+               text-align: center;
+
+               font-family: Montserrat;
+               font-style: normal;
+               font-weight: 500;
+               font-size: 45px;
+               line-height: 80px;
+               /* identical to box height, or 178% */
+
+
+               color: #333333;
+               margin-bottom: 0;
+               padding-bottom: 0;
+               }
+               .section2
+               {
+                    padding-top: 50px;
+                    padding-bottom: 30px;
+                    overflow-x: hidden;
+               }
+               li
+               {
+                    list-style-image: url(img/tick.png);
+                    
+               }
+               ul
+               {
+                    margin-top: 60px;
+               }
+               li span
+               {
+                    position: relative;
+                    top: -6px;
+                    
+
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 22px;
+                    line-height: 60px;
+                    /* identical to box height, or 182% */
+
+                    text-align: center;
+
+                    color: #333333;
+
+               }
+               
+               
+               .img16
+               {
+                    position: relative;
+                    top: -50px;
+                    float: right;
+               }
+               .section3
+               {
+                    padding-top: 50px;
+                    padding-bottom: 30px;
+                    
+               }
+
+               .section3 .hit
+               {
+                    position: relative;
+                    top: -100px;
+                    
+                    
+               }
+               .section3 .hit img
+               {
+                    position: relative;
+                    top: -90px;
+                    float: right;
+
+               }
+               .section3 .hit .text1
+               {
+                    position: relative;
+                    top: 340px;
+                    z-index: 999;
+               }
+               .section3 .head
+               {
+                    position: relative;
+                    bottom: 60px;
+               }
+               
+               
+               
+               .section4
+               {
+                    padding-top: 50px;
+                    padding-bottom: 30px;
+                    overflow-x: hidden;
+                    position: relative;
+                    top: -180px;
+               }
+
+               .section4 .head
+               {
+                    position: relative;
+                    left: 42px;
+                    bottom: 60px;
+                    width: 424px;
+               }
+
+               .section4 .hit .text1
+               {
+                    width: 540px;
+               }
+
+
+
+
+               .section35
+               {
+                    padding-top: 50px;
+                    padding-bottom: 30px;
+                    
+               }
+
+               .section35 .hit
+               {
+                    position: relative;
+                    top: -150px;
+                    
+                    
+               }
+               .section35 .hit img
+               {
+                    position: relative;
+                    top: -60px;
+                    float: right;
+
+               }
+               .section35 .hit .text1
+               {
+                    position: relative;
+                    top: 320px;
+                    z-index: 999;
+                    width: 590px;
+               }
+               
+               .nonover
+               {
+                    overflow-x: hidden;
+               }
+
+
+
+
+
+
+
+
+
+
+
+
+
+               .section50
+               {
+                    padding-top: 50px;
+                    padding-bottom: 0px;
+                    margin-bottom: -180px;
+                    position: relative;
+                    top: -190px;
+                    height: 634px;
+                    overflow: hidden;
+                    
+               }
+               .section50 .hit
+               {
+                    background-color: #f5f5f5;
+               }
+               .section50 .text
+               {
+                    margin-top: -55px;
+                    width: 669px;
+                    height: 80px;
+
+                    margin-bottom: 40px;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 30px;
+                    line-height: 40px;
+                    /* or 133% */
+                    z-index: 999;
+                    letter-spacing: 0.01em;
+
+                    color: #2E2E2E;
+               }
+               .section50 .hit img
+               {
+                    position: relative;
+                    top: -70px;
+                    float: right;
+                    height: 700px;
+                    width: 677px;
+
+               }
+               
+               .section50 .button1
+               {
+                    position: relative;
+                    top: 160px;
+                    z-index: 999;
+               }
+               
+
+               .text2
+               {
+                    position: relative;
+                    top: 110px;
+                    overflow-x: visible;
+                    width: 615px;
+                    height: 80px;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 60px;
+                    line-height: 80px;
+                    /* identical to box height, or 133% */
+                    z-index: 999;
+                    letter-spacing: 0.01em;
+                    
+                    color: #000000;
+               }
+               .section50 a:hover
+               {
+                    text-decoration: none;
+               }
+               .section5
+               {
+                    position: relative;
+                    
+                    height: 280px;
+                    margin-top: 0px;
+                    padding-top: 80px;
+                    padding-bottom: 40px;
+                    text-align: center;
+                    background: #000;
+                    margin-bottom: -330px;
+               }
+               
+               .section5 p
+               {
+                    position: absolute;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 900px;
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 32px;
+                    line-height: 50px;
+
+
+                    color: #FFFFFF;
+               }
+               .section5 a
+               {
+                    position: relative;
+                    width: 200px;
+                    height: 50px;
+                    top: 10px;
+                    background: #03CF9E;
+                    border-radius: 5px;
+               }
+               
+               
+               
+               
+               
+
+
+
+
+               .section6
+               {
+                    
+                    position: relative;
+                    background-color: black;
+                    height: 527px;
+                    overflow: hidden;
+               }
+
+               .social
+               {
+                    
+                    width: 63px;
+                    height: 24px;
+
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 22px;
+                    line-height: 24px;
+                    /* identical to box height, or 109% */
+
+                    
+
+                    color: #FFFFFF;
+               }
+
+               .feed
+               {
+                    
+                    width: 291px;
+                    height: 24px;
+
+
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 22px;
+                    line-height: 24px;
+                    /* identical to box height, or 109% */
+
+                    float: right;
+
+                    color: #FFFFFF;
+               }
+               .hitl .hr1
+               {
+                    background-color: #1DA5FF;
+                    position: relative;
+                    width: 45px;
+                    top: -12px;
+                    
+                    border-radius: 4px;
+                    border: 2.4px solid #1DA5FF;
+               }
+               .hitr .hr1
+               {
+                    background-color: #1DA5FF;
+                    position: relative;
+                    width: 55px;
+                    top: -12px;
+                    float: right;
+                    border-radius: 4px;
+                    border: 2.4px solid #1DA5FF;
+               }
+               .iconsl
+               {
+                    position: relative;
+                    width: 150px;
+                    
+               }
+               .iconsr
+               {
+                    float: right;
+                    position: relative;
+                    
+                    transform: translateX(-30%);
+               }
+               .tops
+               {
+                    position: relative;
+                    top: 75px;
+               }
+               .bottoms
+               {
+                    position: relative;
+                    top: 244px;
+                    float: bottom;
+               }
+               .section6 .hr
+               {
+                    width: 85%;
+                    position: relative;
+                    left: 50%;
+                    top: 192px;
+                    transform: translateX(-50%);
+                    border: 0.5px solid #FFFFFF !important;
+               }
+               .partner
+               {
+                    position: relative;
+                    top:52px;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 18px;
+                    /* identical to box height, or 100% */
+
+                    text-align: center;
+
+                    color: #FFFFFF;
+               }
+               .credits
+               {
+                    position: relative;
+                    top:90px;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 24px;
+                    /* identical to box height, or 133% */
+
+                    text-align: center;
+
+                    color: #FFFFFF;
+               }
+               .section6 a:hover
+               {
+                    text-decoration: none;
+               }
+               .section6 .bttn
+               {
+                    position: relative;
+                    top:45px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 141px;
+                    height: 36px;
+                    padding-top: 12px;
+                    border-radius: 5px;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 14px;
+                    /* identical to box height, or 100% */
+                    background-color: white;
+                    text-align: center;
+
+                    color: #000000;
+               }
+               /*Media Queries*/
+
+               @media screen and (max-width: 1000px) 
+               {
+                    .section5 p
+               {
+                    width: auto !important;
+                    position: absolute;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 25px;
+                    line-height: 50px;
+
+
+                    color: #FFFFFF;
+               }
+               }
+
+

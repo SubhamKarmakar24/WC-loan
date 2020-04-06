@@ -1,0 +1,469 @@
+
+               body
+               {
+                    background-color: #f9f9f9;
+               }
+               .navbar1
+               {
+                    text-align: center;
+                    
+               }
+               .navbar1 p
+               {
+                    
+                    margin-bottom: 10px;
+               }
+               .hr
+               {
+                    position: relative;
+                    width: 270px;
+                    top: 90px;
+                    background-color: #1DA5FF;
+                    border-radius: 4px;
+                    border: 3.2px solid #1DA5FF;
+               }
+               .hr1
+               {
+                    background-color: #1DA5FF;
+                    position: relative;
+                    width: 160px;
+                    margin-top: -5px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    border-radius: 4px;
+                    border: 3.2px solid #1DA5FF;
+               }
+               .section1 img
+               {
+                    
+                    position: absolute;
+                    right: 0;
+                    height: 657px;
+               }
+               .section1
+               {
+                    background-color: white;
+                    height: 657px;
+               }
+               .heading
+               {
+                    position: relative;
+                    width: 592px;
+                    height: 210px;
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 60px;
+                    line-height: 70px;
+                    letter-spacing: 0.01em;
+                    color: #333333;
+                    z-index:99999;
+                    top: 110px;
+               }
+               .text
+               {
+                    top: 140px;
+                    position: relative;
+                    width: 534px;
+                    height: 80px;
+                    z-index: 9999;
+
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 40px;
+
+                    letter-spacing: 0.02em;
+
+                    color: #6A6A6A;
+               }
+               .button1
+               {
+                    
+                    background: #1DA5FF;
+                    box-shadow: 0px 2px 7px rgba(0, 135, 224, 0.5);
+                    border-radius: 10px;
+                    position: absolute;
+                    width: 246px;
+                    height: 57px;
+                    top: 475px;
+               }
+               .container1
+               {
+                    
+                    width: 85%;
+                    position: relative;
+                    left: 50%;
+                    transform: translateX(-50%);
+               }
+               .butext
+               {
+                    
+                    
+
+
+                    font-family: Nunito Sans;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 57px;
+                    
+
+                    
+                    align-items: center;
+                    text-align: center;
+
+                    color: #FFFFFF;
+               }
+               .arrow
+               {
+                    position: relative;
+                    background:url(img/2.png);
+                    width: 33.82px;
+                    height: 25px;
+                    top: 18px;
+                    right: 50px;
+                    float: right;
+               }
+
+               .butext1
+               {
+                    
+                    font-family: Nunito Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 80px;
+/* identical to box height, or 340% */
+
+
+align-items: center;
+text-align: center;
+color: #1DA5FF !important;
+               }
+
+
+               .butext2
+               {
+                   
+                    width: 110px;
+                    height: 50px;
+                    
+
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 35px;
+
+                    text-align: center;
+
+                    color: #FFFFFF;
+               }
+               .section5 a:hover
+               {
+                    color: white;
+               }
+               .arrow1
+               {
+                    position: relative;
+                    background:url(img/9.png);
+                    width: 33.82px;
+                    height: 25px;
+                    top: 28px;
+                    right: 120px;
+                    float: right;
+               }
+               .heading2
+               {
+                    
+               text-align: center;
+
+               font-family: Montserrat;
+               font-style: normal;
+               font-weight: 500;
+               font-size: 45px;
+               line-height: 80px;
+/* identical to box height, or 178% */
+
+
+               color: #333333;
+               margin-bottom: 0;
+               padding-bottom: 0;
+               }
+               .section2
+               {
+                    padding-top: 50px;
+                    padding-bottom: 30px;
+               }
+
+               .section3
+               {
+                    padding-top: 50px;
+                    text-align: left !important;
+                    background-color: white;
+               }
+               .section3 span
+               {
+               
+                    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 25px;
+/* identical to box height, or 250% */
+
+
+color: #828282;
+               }
+               .section3 a
+               {
+                    font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 187% */
+
+
+color: #3399FF;
+               }
+               .section3 a:hover
+               {
+                    text-decoration: none;
+               }
+               .section4
+               {
+                    padding-top: 50px;
+                    padding-bottom: 100px;
+                   
+               }
+               .section5
+               {
+                    height: 325px;
+                    padding-top: 80px;
+                    padding-bottom: 40px;
+                    text-align: center;
+                    background: #4A46FF;
+               }
+               .section4 a
+               {
+                    position: relative;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 503px;
+                    height: 85px;
+                    background: rgba(29, 165, 255, 0.05);
+                    border-radius: 10px;
+                    color: #1DA5FF;
+
+               }
+               .section5 p
+               {
+                    position: absolute;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 900px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 50px;
+
+
+color: #FFFFFF;
+               }
+               .section5 a
+               {
+                    position: relative;
+                    width: 200px;
+                    height: 50px;
+                    top: 150px;
+                    background: #03CF9E;
+                    border-radius: 5px;
+               }
+               .row
+               {
+                    text-align: center;
+                    margin-top: 107px;
+               }
+               .section3 .row
+               {
+                    margin-top: 55px !important;
+                    text-align: left;
+               }
+               .card2 .row
+               {
+                    margin-top: 50px !important;
+               }
+               .card
+               {
+                    position: relative;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 300px;
+                    margin-bottom: 120px;
+                    font-family: Nunito Sans;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 20px;
+                    background-color: transparent;
+                    border: none;
+                    color: #828282;
+
+               }
+               .card img
+               {
+                    position: relative;
+                    width: 55px;
+                    margin-bottom: 15px;
+                    left: 50%;
+                    transform: translateX(-50%);
+               }
+               .card p
+               {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 24px;
+                    color: #333333;
+               }
+
+
+
+
+
+
+               .card1
+               {
+                    position: relative;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 485px;
+                    height: 187px;
+                    margin-bottom: 120px;
+                    font-family: Nunito Sans;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 20px;
+                    background-color: transparent;
+                    border: none;
+                    color: #828282;
+                    background: #FFFFFF;
+                    box-shadow: 0px 4px 20px rgba(2, 74, 121, 0.1);
+                    border-radius: 5px;
+                    
+                    
+               }
+               .card1 img
+               {
+                    position: relative;
+                    top: 70%;
+                    left: 50%;
+                    transform: translate(-50%,-70%);
+                    
+                    
+               }
+               .card1 p
+               {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 24px;
+                    color: #333333;
+                    margin-bottom: 5px;
+                    padding-top: 30px;
+               }
+               
+
+
+               .card2
+               {
+                    position: relative;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    
+                    margin-bottom: 120px;
+                    font-family: Nunito Sans;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 12px;
+                    
+                    background-color: transparent;
+                    border: none;
+                    color: #828282;
+                    
+
+
+
+                    width: 511px;
+height: 368px;
+
+
+background: #FFFFFF;
+box-shadow: 0px 4px 25px rgba(0, 44, 73, 0.1);
+border-radius: 10px;
+               }
+               .card2 img
+               {
+                    position: relative;
+                    top: 45px;
+                    width: 275.23px;
+                    height: 97.12px;
+               }
+               .card2 hr
+               {
+                    width: 350px;
+                    margin-top: 62px;
+               }
+               .card2 p
+               {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 24px;
+                    color: #333333;
+               }
+               .percent
+               {
+                    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 38px;
+line-height: 0px;
+/* identical to box height, or 224% */
+
+display: flex;
+align-items: center;
+color: #000000;
+               }
+
+               /*Media Queries*/
+
+               @media screen and (max-width: 1000px) 
+               {
+                    .section5 p
+               {
+                    width: auto !important;
+                    position: absolute;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 50px;
+
+
+color: #FFFFFF;
+               }
+               }
+
+
+
+
+        
