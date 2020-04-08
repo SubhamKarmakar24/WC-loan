@@ -1,0 +1,1466 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <title>Landing</title>
+          
+<meta charset="UTF-8">
+
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+          <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+          
+
+          <!-- Fonts -->
+          <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,800,900,500i,700,600i&display=swap" rel="stylesheet"> 
+
+          <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap" rel="stylesheet"> 
+          <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,800&display=swap" rel="stylesheet">
+          
+
+          <style>
+               body
+               {
+                    padding-top: 0px;
+                    margin-top: 0px;
+               }
+               .navb
+               {
+                    background-color: #fbfbfb;
+               }
+
+               .section1
+               {
+                    text-align: center;
+                    overflow-x: hidden;
+               }
+               
+               .section1 .hr
+               {
+                    margin: 80px 0 20px 0;
+                    position: relative;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 18%;
+                    background-color: #1DA5FF;
+                    border-radius: 4px;
+                    border: 7.2px solid #1DA5FF;
+                    z-index: 9999;
+                    
+               }
+               .section1 .heading
+               {
+                    position: relative;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 80%;
+
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 450%;
+                    line-height: 120%;
+                    /* or 125% */
+
+                    text-align: center;
+                    letter-spacing: 10%;
+
+                    color: #333333;
+               }
+
+               .section1 .subhead
+               {
+                    position: relative;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 75%;
+                    margin-top: 50px;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 250%;
+                    line-height: 115%;
+                    /* or 156% */
+
+                    text-align: center;
+
+                    color: #676767;
+               }
+
+
+               .section1 .ipbox
+               {
+                    border: none;
+                    position: relative;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 90%;
+                    margin-top: 50px;
+                    margin-left: 10px;
+                    margin-bottom: 20px;
+               }
+               
+               .ipbox .iptext
+               {
+                    position: relative;
+                    bottom: 10px;
+                    
+                    font-size: 360%;
+                    border: none;
+                    margin-right: 0px;
+                    display: inline;
+
+                    font-family: Nunito Sans;
+                    font-style: normal;
+                    font-weight: bold;
+                    /* identical to box height, or 109% */
+
+
+
+                    color: #676767;
+               }
+               .ipbox .ipno
+               {
+                    display: inline;
+                    
+                    border: none;
+                    font-family: Nunito Sans;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 540%;
+                    
+                    
+
+               }
+               input::placeholder
+               {
+                    color: #eeeeee;
+                    letter-spacing: 120%;
+                    font-family: Nunito Sans;
+                    font-style: normal;
+                    font-weight: 800;
+                    background-color: transparent;
+               }
+               .ip
+               {
+                    background-color: transparent;
+                    border: none;
+                    padding-left: 0px;
+                    
+               
+                    
+               }
+               input[type=tel]
+               {
+                    text-align: center;
+               }
+               ::-webkit-input-placeholder {
+                         text-align: center;
+                    }
+
+                    :-moz-placeholder { /* Firefox 18- */
+                         text-align: center;  
+                         }
+
+                    ::-moz-placeholder {  /* Firefox 19+ */
+                         text-align: center;  
+                    }
+
+                    :-ms-input-placeholder {  
+                         text-align: center; 
+               }
+               .section1 .image
+               {
+                    margin-top: 80px;
+                    width: 100vw;
+                    overflow-x: hidden;
+
+               }
+               .section1 .image img
+               {
+                    width: 100vw;
+               }
+
+               .section2
+               {
+                    text-align: center;
+                    overflow-x: hidden;
+               }
+               
+
+
+               .section2 .hr
+               {
+                    margin: 10px 0 20px 0;
+                    position: relative;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 16%;
+                    background-color: #1DA5FF;
+                    border-radius: 4px;
+                    border: 7.2px solid #1DA5FF;
+                    z-index: 9999;
+                    
+               }
+               .section2 .heading
+               {
+                    position: relative;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 80%;
+
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 460%;
+                    line-height: 120%;
+                    /* or 125% */
+
+                    text-align: center;
+                    letter-spacing: 10%;
+                    margin-top: 150px;
+                    color: #333333;
+               }
+
+               .section2 .subhead
+               {
+                    position: relative;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 75%;
+                    margin-top: 50px;
+                    font-family: Raleway;
+                    font-style: italic;
+                    font-weight: 500;
+                    font-size: 250%;
+                    line-height: 167%;
+                    /* or 156% */
+
+                    text-align: center;
+
+                    color: #676767;
+               }
+               .section2 .subhead span
+               {
+                    color: #0199f9;
+
+               }
+
+               
+               .section2 .image img
+               {
+                    width: 100vw;
+                    position: relative;
+                    top: -240px;
+               }
+
+               .section2 .points
+               {
+                    position: relative;
+                    top: -220px;
+                    width: 90%;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    
+                    /* identical to box height, or 222% */
+
+
+                    color: #333333;
+               }
+               li
+               {
+                    list-style-image: url(img/mobtick.png);
+                    
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 255%;
+                    line-height: 222%;
+               }
+               
+               ul
+               {
+                    margin-top: 60px;
+                    text-align: left !important;
+                    
+               }
+               .section2 ul
+               {
+                    position: relative;
+                    
+               }
+               li span
+               {
+                    position: relative;
+                    top: -7px;
+                    
+
+
+                    color: #333333;
+
+               }
+
+
+               
+               .section3
+               {
+                    text-align: center;
+                    overflow-x: hidden;
+               }
+               
+
+
+               .section3 .hr
+               {
+                    margin: 10px 0 20px 0;
+                    position: relative;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 16%;
+                    background-color: #1DA5FF;
+                    border-radius: 4px;
+                    border: 7.2px solid #1DA5FF;
+                    z-index: 9999;
+                    
+               }
+               .section3 .heading
+               {
+                    position: relative;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 70%;
+
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 460%;
+                    line-height: 120%;
+                    /* or 125% */
+
+                    text-align: center;
+                    letter-spacing: 10%;
+                    margin-top: 0px;
+                    color: #333333;
+               }
+
+               .section3 .subhead
+               {
+                    position: relative;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 75%;
+                    margin-top: 50px;
+                    font-family: Raleway;
+                    font-style: italic;
+                    font-weight: 500;
+                    font-size: 250%;
+                    line-height: 167%;
+                    /* or 156% */
+
+                    text-align: center;
+
+                    color: #676767;
+               }
+               .section3 .subhead span
+               {
+                    color: #0199f9;
+
+               }
+
+               
+               .section3 .image img
+               {
+                    width: 100vw;
+                    position: relative;
+                    
+               }
+
+               .section3 .points
+               {
+                    position: relative;
+                    top: -50px;
+                    width: 85%;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    
+                    /* identical to box height, or 222% */
+
+
+                    color: #333333;
+               }
+               
+               
+               .section3 ul
+               {
+                    position: relative;
+                    
+               }
+
+               .section3 li
+               {
+                    list-style-image: url(img/mobtick.png);
+                    
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 255%;
+                    line-height: 139%;
+               }
+               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               
+               .section4
+               {
+                    text-align: center;
+                    overflow-x: hidden;
+               }
+               
+
+
+               .section4 .hr
+               {
+                    margin: 10px 0 20px 0;
+                    position: relative;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 16%;
+                    background-color: #1DA5FF;
+                    border-radius: 4px;
+                    border: 7.2px solid #1DA5FF;
+                    z-index: 9999;
+                    
+               }
+               .section4 .heading
+               {
+                    position: relative;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 70%;
+
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 460%;
+                    line-height: 120%;
+                    /* or 125% */
+
+                    text-align: center;
+                    letter-spacing: 10%;
+                    margin-top: 160px;
+                    color: #333333;
+               }
+
+               .section4 .subhead
+               {
+                    position: relative;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 75%;
+                    margin-top: 50px;
+                    font-family: Raleway;
+                    font-style: italic;
+                    font-weight: 500;
+                    font-size: 250%;
+                    line-height: 167%;
+                    /* or 156% */
+
+                    text-align: center;
+
+                    color: #676767;
+               }
+               .section4 .subhead span
+               {
+                    color: #0199f9;
+
+               }
+
+               
+               .section4 .image img
+               {
+                    width: 100vw;
+                    position: relative;
+                    
+               }
+
+               .section4 .points
+               {
+                    position: relative;
+                    top: -50px;
+                    width: 85%;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    
+                    /* identical to box height, or 222% */
+
+
+                    color: #333333;
+               }
+               
+               
+               .section4 ul
+               {
+                    position: relative;
+                    
+               }
+
+               .section4 li
+               {
+                    list-style-image: url(img/mobtick.png);
+                    
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 255%;
+                    line-height: 222%;
+               }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               .section5
+               {
+                    text-align: center;
+                    overflow-x: hidden;
+               }
+               
+
+
+               .section5 .hr
+               {
+                    margin: 10px 0 20px 0;
+                    position: relative;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 16%;
+                    background-color: #1DA5FF;
+                    border-radius: 4px;
+                    border: 7.2px solid #1DA5FF;
+                    z-index: 9999;
+                    
+               }
+               .section5 .heading
+               {
+                    position: relative;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 70%;
+
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 460%;
+                    line-height: 120%;
+                    /* or 125% */
+
+                    text-align: center;
+                    letter-spacing: 10%;
+                    margin-top: 240px;
+                    color: #333333;
+               }
+
+               .section5 .subhead
+               {
+                    position: relative;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 65%;
+                    margin-top: 50px;
+                    font-family: Raleway;
+                    font-style: italic;
+                    font-weight: 500;
+                    font-size: 250%;
+                    line-height: 167%;
+                    /* or 156% */
+
+                    text-align: center;
+
+                    color: #676767;
+               }
+               .section5 .subhead span
+               {
+                    color: #0199f9;
+
+               }
+
+               
+               .section5 .image img
+               {
+                    width: 100vw;
+                    position: relative;
+                    margin-top: 80px;
+               }
+
+               .section5 .points
+               {
+                    position: relative;
+                    top: -50px;
+                    width: 85%;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    
+                    /* identical to box height, or 222% */
+
+
+                    color: #333333;
+               }
+               
+               
+               .section5 ul
+               {
+                    position: relative;
+                    
+               }
+
+               .section5 li
+               {
+                    list-style-image: url(img/mobtick.png);
+                    
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 255%;
+                    line-height: 222%;
+               }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               
+
+               .section6
+               {
+                    text-align: center;
+                    overflow-x: hidden;
+               }
+               
+
+
+               .section6 .hr
+               {
+                    margin: 10px 0 20px 0;
+                    position: relative;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 16%;
+                    background-color: #1DA5FF;
+                    border-radius: 4px;
+                    border: 7.2px solid #1DA5FF;
+                    z-index: 9999;
+                    
+               }
+               .section6 .heading
+               {
+                    position: relative;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 80%;
+
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 460%;
+                    line-height: 120%;
+                    /* or 125% */
+
+                    text-align: center;
+                    letter-spacing: 10%;
+                    margin-top: 240px;
+                    color: #333333;
+               }
+
+               .section6 .subhead
+               {
+                    position: relative;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 75%;
+                    margin-top: 50px;
+                    font-family: Raleway;
+                    font-style: italic;
+                    font-weight: 500;
+                    font-size: 250%;
+                    line-height: 167%;
+                    /* or 156% */
+
+                    text-align: center;
+
+                    color: #676767;
+               }
+
+               
+               .section6 .image img
+               {
+                    width: 100vw;
+                    position: relative;
+                    margin-top: 80px;
+               }
+
+               .section6 .points
+               {
+                    position: relative;
+                    top: 10px;
+                    width: 85%;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    
+                    /* identical to box height, or 222% */
+
+
+                    color: #333333;
+               }
+               
+               
+               .section6 ul
+               {
+                    position: relative;
+                    margin-bottom: 150px;
+                    
+               }
+
+               .section6 li
+               {
+                    list-style-image: url(img/mobtick.png);
+                    
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 255%;
+                    line-height: 200%;
+                    /* identical to box height, or 200% */
+
+
+                    color: #333333;
+               }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               .section7
+               {
+                    text-align: center;
+                    background-color: #f5f5f5;
+                    overflow-x: hidden;
+               }
+               
+
+
+               .section7 .hr
+               {
+                    margin: 10px 0 20px 0;
+                    position: relative;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 16%;
+                    background-color: #1DA5FF;
+                    border-radius: 4px;
+                    border: 7.2px solid #1DA5FF;
+                    z-index: 9999;
+                    
+               }
+               .section7 .heading
+               {
+                    position: relative;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 90%;
+
+                    
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 460%;
+                    line-height: 250%;
+                    /* identical to box height, or 250% */
+
+                    letter-spacing: 10%;
+
+                    color: #000000;
+
+
+                    margin-top: 80px;
+                    
+               }
+
+               .section7 .subhead
+               {
+                    position: relative;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 75%;
+                    margin-top: 0px;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 250%;
+                    line-height: 167%;
+                    /* or 167% */
+
+                    text-align: center;
+                    letter-spacing: 10%;
+
+                    color: #2E2E2E;
+
+                                   
+
+                   
+               }
+
+               
+               .section7 .image img
+               {
+                    width: 100vw;
+                    position: relative;
+                    margin-top: 80px;
+               }
+
+               .section7 .points
+               {
+                    position: relative;
+                    top: 10px;
+                    width: 85%;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    
+                    /* identical to box height, or 222% */
+
+
+                    color: #333333;
+               }
+               
+               
+               .section7 ul
+               {
+                    position: relative;
+                    
+               }
+
+               .section7 li
+               {
+                    list-style-image: url(img/mobtick.png);
+                    
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 255%;
+                    line-height: 200%;
+                    /* identical to box height, or 200% */
+
+
+                    color: #333333;
+               }
+
+               .section7 .ipbox
+               {
+                    position: relative;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 90%;
+                    margin-top: 90px;
+                    margin-left: 10px;
+                    top: 30px;
+                    margin-bottom: 20px;
+                    
+               }
+
+               .section8
+               {
+                    text-align: center;
+                    background-color: black;
+                    position: relative;
+                    margin-top: -85px;
+                    color: white;
+                    overflow-x: hidden;
+               }
+
+
+
+               .social .hr
+               {
+                    margin: 10px 0 0 0;
+                    position: relative;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 9%;
+                    background-color: #1DA5FF;
+                    border-radius: 4px;
+                    border: 4px solid #1DA5FF;
+                    z-index: 9999;
+                    padding-bottom: 0;
+               }
+
+               
+               .feed .hr
+               {
+                    margin: 10px 0 0 0;
+                    position: relative;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 12%;
+                    background-color: #1DA5FF;
+                    border-radius: 4px;
+                    border: 4px solid #1DA5FF;
+                    z-index: 9999;
+                    padding-bottom: 0;
+               }
+               .social .heading
+               {
+                    position: relative;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 90%;
+
+                    padding-top: 120px;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 310%;
+                    line-height: 109%;
+                    /* identical to box height, or 109% */
+
+                    text-align: center;
+
+                    color: #FFFFFF;
+               }
+
+
+
+               .feed .heading
+               {
+                    position: relative;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 90%;
+
+                    padding-top: 120px;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 310%;
+                    line-height: 109%;
+                    /* identical to box height, or 109% */
+
+                    text-align: center;
+
+                    color: #FFFFFF;
+               }
+
+               .section8 .hr1
+               {
+                    width: 85%;
+                    position: relative;
+                    left: 50%;
+                    margin-top: 40px;
+                    margin-bottom: 80px;
+                    transform: translateX(-50%);
+                    border: 0.5px solid #FFFFFF !important;
+               }
+
+               .section8 .subhead
+               {
+                    position: relative;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 75%;
+                    margin-top: 0px;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 250%;
+                    line-height: 167%;
+                    /* or 167% */
+
+                    text-align: center;
+                    letter-spacing: 10%;
+
+                    color: #2E2E2E;
+
+                                   
+
+                   
+               }
+               .section8 .imgsoc
+               {
+                    position: relative;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 35%;
+                    top: -50px;
+               }
+               
+               .section8 .imgsoc img
+               {
+                    width: 80px;
+                    height: 80px;
+                    position: relative;
+                    margin-top: 80px;
+               }
+
+               .section8 .points
+               {
+                    position: relative;
+                    top: 10px;
+                    width: 85%;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    
+                    /* identical to box height, or 222% */
+
+
+                    color: #333333;
+               }
+               
+               
+               .section8 ul
+               {
+                    position: relative;
+                    
+               }
+
+               .section8 li
+               {
+                    list-style-image: url(img/mobtick.png);
+                    
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 255%;
+                    line-height: 200%;
+                    /* identical to box height, or 200% */
+
+
+                    color: #333333;
+               }
+
+               .partner
+               {
+                    position: relative;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 270%;
+                    line-height: 100%;
+                    /* identical to box height, or 100% */
+
+                    text-align: center;
+
+                    color: #FFFFFF;
+               }
+
+               .section8 a:hover
+               {
+                    text-decoration: none;
+               }
+               .section8 .bttn
+               {
+                    position: relative;
+                    left: 50%;
+                    width: 48%;
+                    height: 100px;
+                    transform: translateX(-50%);
+                    padding-top: 36px;
+                    margin-top: 40px;
+                    border-radius: 10px;
+                    margin-bottom: 80px;
+
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 240%;
+                    line-height: 87%;
+                    /* identical to box height, or 87% */
+
+                    text-align: center;
+
+                    color: #000000;
+
+                    /* identical to box height, or 100% */
+                    background-color: white;
+                    text-align: center;
+
+                    color: #000000;
+               }
+
+               .foott
+               {
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 240%;
+                    line-height: 180%;
+                    /* identical to box height, or 150% */
+               }
+               .imghouse
+               {
+                    position: relative;
+                    margin-top: 80px;
+               }
+               
+               .imghouse img
+               {
+                    width: 100%;
+               }
+               
+
+
+
+
+               .button1 img
+               {
+                    width: 70%;
+                    height: 150px;
+                    
+                    
+               }
+
+               .iptext span
+               {
+                    font-family: 'Playfair Display', serif;
+                    font-size: 120%;
+                    font-weight: 10;
+
+               }
+
+               .points
+               {
+                    padding-left: 6px;
+               }
+             
+
+
+               
+          </style>
+     </head>
+     <body>
+
+          
+          <div class="navb">
+               <p>Nav Bar</p>
+               <p>Nav Bar</p>
+               <p>Nav Bar</p>
+          </div>
+          <div class="section1">
+               <div class="hr"></div>
+               <div class="heading">
+                    Everything you need for your foreign education
+               </div>
+               <div class="subhead">
+                    Exclusive community of study abroad aspirants, seniors and more!
+               </div>
+               <form method="POST" id="my_form">
+                    <div class="ipbox">
+                         
+                         <div class="iptext">
+                              +91 &nbsp;<span>|</span> 
+                         </div>
+                         
+                         
+                         <div class="ipno">
+                              <input class="ip" type="tel"  id="phn" size="10" placeholder="9999999999">
+                         </div>
+                    
+                    </div>
+                    
+                    
+                     
+
+
+                    <a href="javascript:{}" onclick="document.getElementById('my_form').submit(); return false;">
+                         <div class="button1">
+                              <img src="img/get.png">
+                         </div>
+                    </a>
+
+               </form>
+               <div class="image">
+                    <img src="img/mob1.png">
+               </div>
+               
+          </div>
+          
+          <div class="section2">
+               
+               <div class="heading">
+                    Exclusive Community
+               </div>
+               <div class="hr"></div>
+               <div class="subhead">
+                    Still looking for Whatsapp group links? There is a much <span>better way</span>!
+               </div>
+               <div class="image">
+                    <img src="img/mob2.png">
+               </div>
+               <div class="points">
+                    <ul>
+                         <li><span>Chatting groups of aspirants and seniors</span></li>
+                         <li><span>Discover verified similar profiles</span></li>
+                         <li><span>Spam free community, great experience!</span></li>
+                    </ul>
+               </div>
+          </div>
+
+          <div class="section3">
+               
+               <div class="heading">
+                    Loans & Scholarships                </div>
+               <div class="hr"></div>
+               <div class="subhead">
+                    Don’t let lack of funds stop you from realising <span>your dreams</span>!
+               </div>
+               <div class="image">
+                    <img src="img/mob3.png">
+               </div>
+               <div class="points">
+                    <ul>
+     
+                         <li><span>Quotes from multiple lenders with one click</span></li>
+                         <li><span>Compare loans with visual repayment cycle</span></li>
+                         <li><span>Discover scholarships matching your profile</span></li>
+                    </ul>
+               </div>
+          </div>
+
+
+          <div class="section4">
+               
+               <div class="heading">
+                    Housing & Roommate finder
+                </div>
+               <div class="hr"></div>
+               <div class="subhead">
+                    Find your <span>home</span> away from <span>home</span>!
+               </div>
+               <div class="image">
+                    <img src="img/mob4.png">
+               </div>
+               <div class="points">
+                    <ul>
+                         <li><span>Compare and book your accomodation</span></li>
+                         <li style="line-height: 139%;"><span>Swipe and get matched with your future roomie</span></li>
+                         <li style="line-height: 139%;"><span>Digital Lease. No booking fees. Cancel anytime.</span></li>
+                    </ul>
+               </div>
+          </div>
+
+
+          <div class="section5">
+               
+               <div class="heading">
+                    Visa & Forex
+               </div>
+               <div class="hr"></div>
+               <div class="subhead">
+                    Nervous for your <span>visa interview</span>?
+ Get FAQs, Document checklist, etc
+                    
+               </div>
+               <div class="image">
+                    <img src="img/mob5.png">
+               </div>
+               <div class="points">
+                    <ul>
+                         <li><span>Prepare for your visa interview</span></li>
+                         <li style="line-height: 139%;"><span>Seemlessly buy health insurance and get vaccinated</span></li>
+                         <li><span>Easily compare and get your forex card</span></li>
+                    </ul>
+               </div>
+          </div>
+
+          <div class="section6">
+               <div class="heading">
+                    More Coming Soon!
+               </div>
+               <div class="hr"></div>
+               
+               <div class="points">
+                    <ul>
+                         <li><span>SoP and LoR guidance</span></li>
+                         <li><span>University information and compare</span></li>
+                         <li><span>AI profile evaluator</span></li>
+                         <li><span>Test Prep material, tips and tricks</span></li>
+                         <li><span>Flights and Airport pickup</span></li>
+                         <li><span>Part time job opportunities</span></li>
+
+                    </ul>
+               </div>
+          
+          </div>
+
+          <div class="section7">
+               <div class="heading">
+                    Join the Community
+               </div>
+               <div class="subhead">
+                    See what other aspirants, admits and seniors are talking about.
+                    
+               </div>
+               <form method="POST" id="my_form">
+                    <div class="ipbox">
+                         
+                         <div class="iptext">
+                              +91 &nbsp;<span>|</span>
+                         </div>
+                         
+                         
+                         <div class="ipno">
+                              <input class="ip" type="tel" id="phn" size="10" placeholder="9999999999">
+                         </div>
+                    
+                    </div>
+                    
+                    
+                     
+
+
+                    <a href="javascript:{}" onclick="document.getElementById('my_form').submit(); return false;">
+                         <div class="button1">
+                              <img src="img/get.png">
+                         </div>
+                    </a>
+
+               </form>
+               <div class="image">
+                    <img src="img/mob6.png">
+               </div>
+          </div>
+
+          <div class="section8">
+               <div class="social">
+                    <div class="heading">
+                         Social
+                    </div>
+                    <div class="hr"></div>
+                    <div class="imgsoc">
+                         <div class="row">
+                              <div class="col-4">
+                                   <img src="img/in.png">
+                              </div>
+                              <div class="col-4">
+                                   <img src="img/fb.png">
+                              </div>
+                              <div class="col-4">
+                                   <img src="img/ig.png">
+                              </div>
+                         </div>
+                    </div>
+               </div>
+
+
+               <div class="feed">
+                    <div class="heading">
+                         Have a feedback? Let's Chat
+                    </div>
+                    <div class="hr"></div>
+                    <div class="imgsoc">
+                         <img src="img/wa.png">
+                    </div>
+               </div>
+
+
+               <div class="hr1"></div>
+
+               <p class="partner">Studying in a foreign university?</p>
+               <a href="#"><div class="bttn">Become Mentor</div></a>
+
+               <p class="partner">Partner with us!</p>
+               <a href="#"><div class="bttn">Contact</div></a>
+
+
+                    <div class="foott">
+                         © TwoPointTwo WC Solutions Private Limited
+                         
+                         <br>
+                         Terms and Conditions&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Privacy Policy
+                    </div>
+
+
+                    <div class="imghouse">
+                         <div class="row">
+                              <div class="col-6">
+                                   <img src="img/moblb.png">
+                              </div>
+                              <div class="col-6">
+                                   <img src="img/mobrb.png">
+                              </div>
+
+                         </div>
+                    </div>
+
+
+          </div>
+
+     </body>
+</html>
+
+
+
+
+               
+
+
+
+              
